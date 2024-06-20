@@ -5,8 +5,7 @@
 
  I. 개발환경 만들기 
 1. Pc에서 폴더 만들기  
-실습환경에 따라 폴더 이름이 다를수 있어요.   
-나는 이곳에 만들고 dataSet폴더를 따로 만들었어요.  
+conda create -n (인터프리터 명) python=3.9    
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/a357b6ca-306d-4939-b562-c4a6440ae8d3)  
 
 
@@ -60,7 +59,7 @@ _result --cache
 
 여기 까지 하게 되면 best.pt를 구할 수 있고 다음은 inference  
 
-conda create -n (인터프리터 명) python=3.9  
+
 git clone https://github.com/ultralytics/yolov5  
 pip install -r requirements.txt  
 cd yolov5  
