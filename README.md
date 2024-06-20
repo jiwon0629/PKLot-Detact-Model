@@ -4,7 +4,7 @@
  - <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="57" height="57" /></div>  
 
  I. 개발환경 만들기 
-1. Pc에서 폴더 만들기  
+1. PC에서 폴더 만들기  
   
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/a357b6ca-306d-4939-b562-c4a6440ae8d3)  
 
