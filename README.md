@@ -44,11 +44,11 @@ zip으로 다운로드 받아서 yolov5 폴더 아래에 dataSet 폴더를 만�
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/0075414c-0778-4c2c-90c4-831ff3d32883)  
 
 
-우리는 학습을 yolov5 폴더에서 할것이기 때문에 현재 폴더 밑에 ./dataSet이라고 지정을 꼭 하고 저장  
-nc : 2 인것을 기억해 놓기 (custom-yolov5s.yaml에서 사용할 예정)  
+학습을 yolov5 폴더에서 할 것이기 때문에 현재 폴더 밑에 ./dataSet이라고 지정을 꼭 하고 저장  
+nc : 2 인것을 기억 (custom-yolov5s.yaml에서 사용할 예정)  
 
 10. ./models/폴더에 있는 yolov5s.yaml을 복사해서 custom_yolov5s.yaml로 만들기   
-그리고 nc : 2로 바꾸어 준다.  
+그리고 nc : 2로 바꾼다.  
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/30369b8e-573b-4fb5-b826-a96f0259617f)  
 
 
@@ -64,9 +64,11 @@ nc : 2 인것을 기억해 놓기 (custom-yolov5s.yaml에서 사용할 예정)
 
 
 이렇게 모든 준비가 끝나면  
+
 III. 학습  
 11. data.yaml의 위치가 가장 중요하다.  
-python train.py --img 416 --batch 16 --epochs 100 --data ./dataSet/data.yaml --cfg ./models/custom_yolov5s.yaml --weights '' --name  PKLot_result --cache  
+
+- python train.py --img 416 --batch 16 --epochs 100 --data ./dataSet/data.yaml --cfg ./models/custom_yolov5s.yaml --weights '' --name  PKLot_result --cache  
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/00704b4e-84d1-4ed7-8680-46c31e40c7d9)  
 
 여기 까지 하게 되면 best.pt를 구할 수 있고 다음은 inference  
