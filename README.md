@@ -34,12 +34,12 @@ https://public.roboflow.com/
 dataset설치  
 YOLO v5 PyTorch  
 download zip to computer  
-zip으로 다운로드 받아서 yolov5 폴더 아래에 dataset 폴더를 만들고 그곳에 풀어줌  
+zip으로 다운로드 받아서 yolov5 폴더 아래에 dataSet 폴더를 만들고 그곳에 풀어줌  
 
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/804a6630-291e-4dea-a1ad-c89358fea499)  
 
 
-9. dataset 폴더에 있는 data.yaml을 직접 수정 - 폴더의 위치에 집중
+9. dataSet 폴더에 있는 data.yaml을 직접 수정 - 폴더의 위치에 집중
 
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/0075414c-0778-4c2c-90c4-831ff3d32883)  
 
@@ -52,7 +52,7 @@ nc : 2 인것을 기억해 놓기 바랍니다. (custom-yolov5s.yaml에서 사�
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/30369b8e-573b-4fb5-b826-a96f0259617f)  
 
 
-12. dataset 폴더에 myGlob.py를 만든다(코랩의 내용을 복사)
+12. dataSet 폴더에 myGlob.py를 만든다(코랩의 내용을 복사)
 
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/fd1b5a53-d4cc-4aa3-ad94-ca5b795deee5)  
 
