@@ -13,9 +13,9 @@
 3. VSCode를 실행하고 
 4. 터미널에서 conda 가상 환경  yolov5를 만들었어요.
 
-5. VSCode와 가상환경을 연결하세요 CTRL+SHIFT+P
-6. 새로운 터미널을 열어서 작업을 시작합니다. 
-7. git clone로 yolo 가져오기
+5. VSCode와 가상환경을 연결하세요 CTRL+SHIFT+P  
+6. 새로운 터미널을 열어서 작업을 시작합니다.  
+7. git clone로 yolo 가져오기  
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/ff5462e2-a28a-4ea6-ba16-419258e7aee5)  
 
 8. yolo개발 패키지 설치  - pip install -r requirements.txt  
