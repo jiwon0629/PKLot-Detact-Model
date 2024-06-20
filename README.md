@@ -24,8 +24,12 @@
 II. 데이터세트 준비  
 8. 데이터세트 준비   
 zip으로 다운로드 받아서 yolov5 폴더 아래에 dataset 폴더를 만들고 그곳에 풀어줌   
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/804a6630-291e-4dea-a1ad-c89358fea499)
+
 
 9. dataset 폴더에 있는 data.yaml을 직접 수정 - 폴더의 위치에 집중
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/0075414c-0778-4c2c-90c4-831ff3d32883)
+
 
 우리는 학습을 yolov5 폴더에서 할것이기 때문에 현재 폴더 밑에 ./dataSet이라고 지정을 꼭 하고 저장!  
 nc : 5 인것을 기억해 놓기 바랍니다. (custom-yolov5s.yaml에서 사용할 예정)
