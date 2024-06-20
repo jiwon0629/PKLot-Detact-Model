@@ -27,7 +27,7 @@ zip으로 다운로드 받아서 yolov5 폴더 아래에 dataset 폴더를 만�
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/804a6630-291e-4dea-a1ad-c89358fea499)  
 
 
-9. dataset 폴더에 있는 data.yaml을 직접 수정 - 폴더의 위치에 집중
+9. dataset 폴더에 있는 data.yaml을 직접 수정 - 폴더의 위치에 집중  
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/0075414c-0778-4c2c-90c4-831ff3d32883)  
 
 
