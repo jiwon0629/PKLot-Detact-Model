@@ -41,6 +41,9 @@ nc : 5 인것을 기억해 놓기 바랍니다. (custom-yolov5s.yaml에서 사�
 
 12. dataset 폴더에 myGlob.py를 만든다(코랩의 내용을 복사)
 
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/fd1b5a53-d4cc-4aa3-ad94-ca5b795deee5)  
+
+
 정상 실행 되면  
 
 3개의 txt파일이 만들어 진다 
