@@ -9,14 +9,15 @@
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/a357b6ca-306d-4939-b562-c4a6440ae8d3)  
 
 
-3. VSCode를 실행하고 터미널에서 conda 가상 환경  pk를 만든다.
-[conda create -n (인터프리터 명) python=3.9]
+3. VSCode를 실행하고 터미널에서 conda 가상 환경  pk를 만든다.  
+- conda create -n (인터프리터 명) python=3.9
 
 4. VSCode와 가상환경을 연결하세요 CTRL+SHIFT+P  
   
 6. 새로운 터미널을 열어서 작업을 시작합니다.  
 
-7. git clone로 yolo 가져오기
+7. git clone로 yolo 가져오기  
+- git clone https://github.com/ultralytics/yolov5
 
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/ff5462e2-a28a-4ea6-ba16-419258e7aee5)  
 
