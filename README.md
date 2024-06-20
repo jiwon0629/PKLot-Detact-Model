@@ -46,7 +46,9 @@ nc : 5 인것을 기억해 놓기 바랍니다. (custom-yolov5s.yaml에서 사�
 
 정상 실행 되면  
 
-3개의 txt파일이 만들어 진다 
+3개의 txt파일이 만들어 진다   
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/c5d61f91-6ec7-44af-8d59-95c442dc5cd2)  
+
 
 이렇게 모든 준비가 끝나면  
 III. 학습  
@@ -54,8 +56,9 @@ III. 학습
 python train.py  
 --img 416 --batch 16 --epochs 100 --data ./dataSet/data.yaml --cfg ./models/custom_yolov5s.yaml --weights '' --name  
 _result --cache  
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/00704b4e-84d1-4ed7-8680-46c31e40c7d9)  
 
-여기 까지 하게 되면 best.pt를 구할 수 있고 다음은 inference
+여기 까지 하게 되면 best.pt를 구할 수 있고 다음은 inference  
 
 conda create -n (인터프리터 명) python=3.9  
 git clone https://github.com/ultralytics/yolov5  
