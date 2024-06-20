@@ -9,7 +9,7 @@
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/a357b6ca-306d-4939-b562-c4a6440ae8d3)  
 
 
-3. VSCode를 실행하고 터미널에서 conda 가상 환경  pk를 만든다.  
+3. VSCode를 실행하고 터미널에서 conda 가상 환경 pk를 만든다.  
 - conda create -n (인터프리터 명) python=3.9
 
 4. VSCode와 가상환경을 연결하세요 CTRL+SHIFT+P  
@@ -21,12 +21,14 @@
 
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/ff5462e2-a28a-4ea6-ba16-419258e7aee5)  
 
-8. yolo개발 패키지 설치  - pip install -r requirements.txt  
+8. yolo개발 패키지 설치  - pip install -r requirements.txt
+
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/9767eeef-b0dd-4f83-a2c4-cec16bc18276)  
 
 II. 데이터세트 준비  
 8. 데이터세트 준비   
 zip으로 다운로드 받아서 yolov5 폴더 아래에 dataset 폴더를 만들고 그곳에 풀어줌   
+
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/804a6630-291e-4dea-a1ad-c89358fea499)  
 
 
