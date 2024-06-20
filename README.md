@@ -1,4 +1,7 @@
 # PKLot-Detact-Model  
+ - 주차장 차량 객체 인식  
+## Language  
+ - <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="57" height="57" /></div>  
 
 conda create -n (인터프리터 명) python=3.9  
 git clone https://github.com/ultralytics/yolov5  
