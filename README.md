@@ -34,7 +34,7 @@ https://public.roboflow.com/
 dataset설치  
 YOLO v5 PyTorch  
 download zip to computer  
-zip으로 다운로드 받아서 yolov5 폴더 아래에 dataSet 폴더를 만들고 그곳에 풀어준다.  
+zip으로 다운로드 받아서 yolov5 폴더 아래에 dataSet 폴더를 만들고 dataSet 폴더에 압축을 풀어준다.  
 
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/804a6630-291e-4dea-a1ad-c89358fea499)  
 
