@@ -14,20 +14,27 @@
 
 4. VSCode와 가상환경을 연결하세요 CTRL+SHIFT+P  
   
-6. 새로운 터미널을 열어서 작업을 시작합니다.  
+6. 새로운 터미널을 열어서 작업을 시작한다.  
 
 7. git clone로 yolo 가져오기  
 - git clone https://github.com/ultralytics/yolov5
 
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/ff5462e2-a28a-4ea6-ba16-419258e7aee5)  
 
-8. yolo개발 패키지 설치  - pip install -r requirements.txt
+8. yolo개발 패키지 설치  - cd yolov5 -> pip install -r requirements.txt
 
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/9767eeef-b0dd-4f83-a2c4-cec16bc18276)  
 
 II. 데이터세트 준비  
 8. 데이터세트 준비   
-zip으로 다운로드 받아서 yolov5 폴더 아래에 dataset 폴더를 만들고 그곳에 풀어줌   
+
+[roboflow]  
+https://public.roboflow.com/  
+
+dataset설치  
+YOLO v5 PyTorch  
+download zip to computer  
+zip으로 다운로드 받아서 yolov5 폴더 아래에 dataset 폴더를 만들고 그곳에 풀어줌  
 
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/804a6630-291e-4dea-a1ad-c89358fea499)  
 
@@ -67,15 +74,4 @@ _result --cache
 여기 까지 하게 되면 best.pt를 구할 수 있고 다음은 inference  
 
 
-git clone https://github.com/ultralytics/yolov5  
-pip install -r requirements.txt  
-cd yolov5  
-pip install -r requirements.txt  
 
-[roboflow]  
-https://public.roboflow.com/  
-
-dataset설치  
-YOLO v5 PyTorch  
-download zip to computer  
-zip으로 다운로드 받아서 yolov5 폴더 아래에 dataset 폴더를 만들고 그곳에 풀어줌  
