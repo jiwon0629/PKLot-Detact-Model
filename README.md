@@ -32,12 +32,14 @@ zip으로 다운로드 받아서 yolov5 폴더 아래에 dataset 폴더를 만�
 
 
 우리는 학습을 yolov5 폴더에서 할것이기 때문에 현재 폴더 밑에 ./dataSet이라고 지정을 꼭 하고 저장!  
-nc : 5 인것을 기억해 놓기 바랍니다. (custom-yolov5s.yaml에서 사용할 예정)
+nc : 5 인것을 기억해 놓기 바랍니다. (custom-yolov5s.yaml에서 사용할 예정)  
 
-10. ./models/폴더에 있는 yolov5s.yaml을 복사해서 custom_yolov5s.yaml로 만들기  
+10. ./models/폴더에 있는 yolov5s.yaml을 복사해서 custom_yolov5s.yaml로 만들기   
 그리고 nc : 5로 바꾸어 줍니다.
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/30369b8e-573b-4fb5-b826-a96f0259617f)  
 
-11. dataset 폴더에 myGlob.py를 만든다(코랩의 내용을 복사)
+
+12. dataset 폴더에 myGlob.py를 만든다(코랩의 내용을 복사)
 
 정상 실행 되면  
 
