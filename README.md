@@ -4,10 +4,10 @@
  - <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="57" height="57" /></div>  
 
  I. 개발환경 만들기 
-1. Pc에서 폴더 만들기
-    실습환경에 따라 폴더 이름이 다를수 있어요.   
-    나는 이곳에 만들고 dataSet폴더를 따로 만들었어요.  
-![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/a357b6ca-306d-4939-b562-c4a6440ae8d3)
+1. Pc에서 폴더 만들기  
+실습환경에 따라 폴더 이름이 다를수 있어요.   
+나는 이곳에 만들고 dataSet폴더를 따로 만들었어요.  
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/a357b6ca-306d-4939-b562-c4a6440ae8d3)  
 
 
 3. VSCode를 실행하고 
@@ -16,19 +16,19 @@
 5. VSCode와 가상환경을 연결하세요 CTRL+SHIFT+P
 6. 새로운 터미널을 열어서 작업을 시작합니다. 
 7. git clone로 yolo 가져오기
-![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/ff5462e2-a28a-4ea6-ba16-419258e7aee5)
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/ff5462e2-a28a-4ea6-ba16-419258e7aee5)  
 
 8. yolo개발 패키지 설치  - pip install -r requirements.txt  
-![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/9767eeef-b0dd-4f83-a2c4-cec16bc18276)
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/9767eeef-b0dd-4f83-a2c4-cec16bc18276)  
 
 II. 데이터세트 준비  
 8. 데이터세트 준비   
 zip으로 다운로드 받아서 yolov5 폴더 아래에 dataset 폴더를 만들고 그곳에 풀어줌   
-![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/804a6630-291e-4dea-a1ad-c89358fea499)
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/804a6630-291e-4dea-a1ad-c89358fea499)  
 
 
 9. dataset 폴더에 있는 data.yaml을 직접 수정 - 폴더의 위치에 집중
-![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/0075414c-0778-4c2c-90c4-831ff3d32883)
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/0075414c-0778-4c2c-90c4-831ff3d32883)  
 
 
 우리는 학습을 yolov5 폴더에서 할것이기 때문에 현재 폴더 밑에 ./dataSet이라고 지정을 꼭 하고 저장!  
