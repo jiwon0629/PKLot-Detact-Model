@@ -77,8 +77,9 @@ nc : 2 인것을 기억 (custom-yolov5s.yaml에서 사용할 예정)
 
 III. 학습  
 11. data.yaml의 위치가 가장 중요하다.  
-
-- python train.py --img 416 --batch 16 --epochs 100 --data ./dataSet/data.yaml --cfg ./models/custom_yolov5s.yaml --weights '' --name  PKLot_result --cache  
+```
+python train.py --img 416 --batch 16 --epochs 100 --data ./dataSet/data.yaml --cfg ./models/custom_yolov5s.yaml --weights '' --name  PKLot_result --cache
+```
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/00704b4e-84d1-4ed7-8680-46c31e40c7d9)  
 
 여기 까지 하게 되면 best.pt를 구할 수 있고 다음은 inference  
