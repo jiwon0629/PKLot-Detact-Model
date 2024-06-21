@@ -10,9 +10,11 @@
 
 
 3. VSCode를 실행하고 터미널에서 conda 가상 환경 인터프리터를 만든다.  
-- conda create -n (인터프리터 명) python=3.9
+..
+conda create -n (인터프리터 명) python=3.9
+..
 
-4. VSCode와 가상환경을 연결하세요 CTRL+SHIFT+P  
+5. VSCode와 가상환경을 연결하세요 CTRL+SHIFT+P  
   
 6. 새로운 터미널을 열어서 작업을 시작한다.  
 
