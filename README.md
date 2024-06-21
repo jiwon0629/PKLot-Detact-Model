@@ -14,13 +14,16 @@
 conda create -n (인터프리터 명) python=3.9
 ```
 
-5. VSCode와 가상환경을 연결하세요 CTRL+SHIFT+P  
-  
+5. VSCode와 가상환경을 연결하세요  
+```
+CTRL+SHIFT+P
+```  
 6. 새로운 터미널을 열어서 작업을 시작한다.  
 
 7. git clone로 yolov5 가져오기  
-- git clone https://github.com/ultralytics/yolov5
-
+```
+git clone https://github.com/ultralytics/yolov5
+```
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/ff5462e2-a28a-4ea6-ba16-419258e7aee5)  
 
 8. yolo개발 패키지 설치  - cd yolov5 -> pip install -r requirements.txt
