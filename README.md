@@ -26,8 +26,13 @@ git clone https://github.com/ultralytics/yolov5
 ```
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/ff5462e2-a28a-4ea6-ba16-419258e7aee5)  
 
-8. yolo개발 패키지 설치  - cd yolov5 -> pip install -r requirements.txt
-
+8. yolo개발 패키지 설치  
+```
+cd yolov5
+```
+```
+pip install -r requirements.txt
+```
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/9767eeef-b0dd-4f83-a2c4-cec16bc18276)  
 
 II. 데이터세트 준비  
