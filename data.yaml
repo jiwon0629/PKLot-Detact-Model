@@ -1,0 +1,5 @@
+train: ./dataSet/train/images
+val: ./dataSet/valid/images
+
+nc: 2
+names: ['space-empty', 'space-occupied']
