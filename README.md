@@ -82,7 +82,14 @@ python train.py --img 416 --batch 16 --epochs 100 --data ./dataSet/data.yaml --c
 ```
 ![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/00704b4e-84d1-4ed7-8680-46c31e40c7d9)  
 
+
+
 여기 까지 하게 되면 best.pt를 구할 수 있고 다음은 inference  
+
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/c8e2384e-5ee8-4f4d-9dc2-c051f4667e31)  
+
+![image](https://github.com/jiwon0629/PKLot-Detact-Model/assets/149983498/cf60e796-1481-4eda-b0b6-74ebfda8f4a9)  
+
 
 
 
