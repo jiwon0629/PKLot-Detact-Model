@@ -14,7 +14,7 @@
 conda create -n (인터프리터 명) python=3.9
 ```
 
-5. VSCode와 가상환경을 연결하세요  
+5. VSCode와 가상환경을 연결  
 ```
 CTRL+SHIFT+P
 ```  
